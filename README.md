@@ -1,12 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and Vercel.
+# Santex Challenge
 
-This project contains a simple Ecommerce, getting the products from this [`Graphql API`](https://demo.vendure.io/shop-api).
+This project it's only meant for demonstrating my knowledge with React, Styled components, Javascript, etc., this repository contains a simple Ecommerce, fetching the products from this [`Graphql API`](https://demo.vendure.io/shop-api).
 
-The project it's configured to use Typescript and for Styling we use Styled components with [`Emotion`](https://emotion.sh/docs/introduction).
+For this project I used [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and Vercel for deployment.
+
+The project it's also configured to use Typescript and for Styling I use Styled components with [`Emotion`](https://emotion.sh/docs/introduction).
 
 ## Getting Started
 
 First, run the development server:
+
+```bash
+npm install
+# or
+yarn install
+```
 
 ```bash
 npm run dev
