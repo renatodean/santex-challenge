@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer snapshot renders the Footer 1`] = `
+<div>
+  <header
+    class="css-1cvg25p"
+  >
+    Santex Challenge - Ecommerce
+  </header>
+</div>
+`;

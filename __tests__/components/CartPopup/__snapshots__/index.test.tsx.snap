@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartPopup snapshot renders the cartpopup with products 1`] = `
+<div>
+  <div
+    class="css-1q2mii1"
+    data-testid="cart-popup"
+  >
+    <h4
+      class="css-kcczxu"
+    >
+      Products:
+    </h4>
+    <ul
+      class="css-yjavwb"
+    >
+      <li
+        class="css-0"
+      >
+        <div
+          class="css-27h8oo"
+        >
+          <div
+            class="css-19dhafh"
+          >
+            3x 
+            Laptop
+          </div>
+          <div
+            class="css-6gq9lb"
+          >
+            $ 
+            3897.00
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div
+      class="css-14kbw0l"
+    >
+      <div
+        class="css-hiimpy"
+      >
+        Total:
+      </div>
+      <div
+        class="css-1hcwrky"
+      >
+        $ 
+        3897.00
+      </div>
+    </div>
+    <button
+      class="css-1fwxpn2"
+      data-testid="checkout-button"
+      tabindex="0"
+    >
+      Checkout
+    </button>
+  </div>
+</div>
+`;
+
+exports[`CartPopup snapshot renders the cartpopup without products 1`] = `
+<div>
+  <div
+    class="css-1q2mii1"
+    data-testid="cart-popup"
+  >
+    <div
+      class="css-1kheigu"
+    >
+      <svg
+        aria-hidden="true"
+        class="StyledIconBase-ea9ulj-0 iLHuDN"
+        fill="currentColor"
+        focusable="false"
+        height="36"
+        viewBox="0 0 16 16"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.354 5.646a.5.5 0 1 0-.708.708L7.793 7.5 6.646 8.646a.5.5 0 1 0 .708.708L8.5 8.207l1.146 1.147a.5.5 0 0 0 .708-.708L9.207 7.5l1.147-1.146a.5.5 0 0 0-.708-.708L8.5 6.793 7.354 5.646z"
+        />
+        <path
+          d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+        />
+      </svg>
+      <h4
+        class="css-1yltisf"
+      >
+        No products in the cart
+      </h4>
+      <span
+        class="css-jfb38y"
+      >
+        Not sure where to start?
+      </span>
+      <span
+        class="css-jfb38y"
+      >
+        Check out the homepage.
+      </span>
+    </div>
+  </div>
+</div>
+`;
