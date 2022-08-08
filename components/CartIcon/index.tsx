@@ -51,7 +51,11 @@ const CartIcon = () => {
 
   return (
     <Container>
-      <CartContainer tabIndex={0} onClick={() => setShowCartPopup(true)}>
+      <CartContainer
+        data-testid="cart-icon"
+        tabIndex={0}
+        onClick={() => setShowCartPopup(true)}
+      >
         {!productsQuantity ? (
           <Cart size="30" />
         ) : (

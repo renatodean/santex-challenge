@@ -51,6 +51,7 @@ const Header = ({ withSearch = false }: HeaderProps) => {
             router.push("/");
           }
         }}
+        data-testid="home-link"
       >
         <Image
           priority

@@ -10,7 +10,7 @@ export const getPrice = (product: Item, quantity?: number) => {
   const { variants } = product || {};
   const productPrice = variants && variants.length > 0 ? variants[0].price : 0;
 
-  return ((productPrice * (quantity || 1)) / 1000).toFixed(2);
+  return ((productPrice * (quantity || 1)) / 100).toFixed(2);
 };
 
 /**
@@ -23,7 +23,7 @@ export const getPriceNumber = (product: Item, quantity?: number) => {
   const { variants } = product || {};
   const productPrice = variants && variants.length > 0 ? variants[0].price : 0;
 
-  return (productPrice * (quantity || 1)) / 1000;
+  return (productPrice * (quantity || 1)) / 100;
 };
 
 /**

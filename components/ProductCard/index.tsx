@@ -61,10 +61,11 @@ const ProductCard = ({ product }: ProductCardProps) => {
           router.push(`/product/${product.slug}`);
         }
       }}
+      data-testid="product-card"
     >
       <ImgContainer>
         <Image
-          src={product.featuredAsset.source}
+          src={product.featuredAsset?.source || "/ban-image-photo-icon.png"}
           priority
           alt={product.name}
           layout="fill"

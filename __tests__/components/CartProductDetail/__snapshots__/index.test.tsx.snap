@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartProductDetail snapshot renders the CartProductDetail 1`] = `
+<div>
+  <li
+    class="css-0"
+  >
+    <div
+      class="css-27h8oo"
+    >
+      <div
+        class="css-19dhafh"
+      >
+        3x 
+        Laptop
+      </div>
+      <div
+        class="css-6gq9lb"
+      >
+        $ 
+        3897.00
+      </div>
+    </div>
+  </li>
+</div>
+`;
+
+exports[`CartProductDetail snapshot renders the CartProductDetail with quantity 1 1`] = `
+<div>
+  <li
+    class="css-0"
+  >
+    <div
+      class="css-27h8oo"
+    >
+      <div
+        class="css-19dhafh"
+      >
+        Laptop
+      </div>
+      <div
+        class="css-6gq9lb"
+      >
+        $ 
+        1299.00
+      </div>
+    </div>
+  </li>
+</div>
+`;

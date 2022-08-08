@@ -30,7 +30,7 @@ const SpinnerWrapper = styled.div`
 `;
 
 const Spinner = () => (
-  <SpinnerWrapper>
+  <SpinnerWrapper data-testid="spinner">
     <SpinnerAnimation />
   </SpinnerWrapper>
 );

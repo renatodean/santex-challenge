@@ -51,7 +51,7 @@ const ProductsContainer = styled.ul`
 
 const ProductsTotalContainer = styled.div`
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   border-top: 0.5px solid rgba(0, 0, 0, 20%);
   padding-top: 10px;
   margin-bottom: 6px;
@@ -88,7 +88,7 @@ const CartPopup = ({ products }: CartPopupProps) => {
   );
 
   return (
-    <Container>
+    <Container data-testid="cart-popup">
       {products && products.length ? (
         <>
           <CartPopupTitle>Products:</CartPopupTitle>
@@ -109,6 +109,7 @@ const CartPopup = ({ products }: CartPopupProps) => {
                 router.push("/checkout");
               }
             }}
+            data-testid="checkout-button"
           >
             Checkout
           </CheckoutButton>
