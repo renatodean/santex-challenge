@@ -118,7 +118,7 @@ const ProductDetail = ({ product }: ProductDetailProps) => {
     <Container>
       <ImgContainer>
         <Image
-          src={product.featuredAsset.source}
+          src={product.featuredAsset?.source || "/ban-image-photo-icon.png"}
           priority
           alt={product.name}
           layout="fill"

@@ -20,7 +20,7 @@ const SearchInput = () => {
     if (searchTerm !== router.query.q) {
       setSearchTerm(getQueryValue(router.query.q));
     }
-  }, [router.query.q]);
+  }, [router.query.q, searchTerm]);
 
   const onChangeInput = (updatedSearchTerm: string) => {
     setSearchTerm(updatedSearchTerm);
@@ -42,6 +42,7 @@ const SearchInput = () => {
         onChange={(event) => onChangeInput(event.target.value)}
         value={searchTerm}
         maxLength={30}
+        data-testid="search-input"
       />
     </Container>
   );

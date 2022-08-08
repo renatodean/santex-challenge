@@ -1,5 +1,5 @@
 interface FeaturedAsset {
-  id: number;
+  id: string;
   name: string;
   type: string;
   source: string;
@@ -15,10 +15,10 @@ export interface Variant {
 }
 
 export interface Item {
-  id: number;
+  id: string;
   name: string;
   slug: string;
   description: string;
-  featuredAsset: FeaturedAsset;
+  featuredAsset?: FeaturedAsset;
   variants: Variant[];
 }

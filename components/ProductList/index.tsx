@@ -23,6 +23,7 @@ const ProductList = ({ products }: ProductListProps) => {
   useEffect(() => {
     if (router.query.q) {
       const searchQueryParam = getQueryValue(router.query.q);
+
       setFilteredProducts(
         products.filter((product) =>
           product.name.toLowerCase().includes(searchQueryParam.toLowerCase())
@@ -31,7 +32,7 @@ const ProductList = ({ products }: ProductListProps) => {
     } else {
       setFilteredProducts(products);
     }
-  }, [router.query.q]);
+  }, [router.query.q, products]);
 
   return (
     <Container>

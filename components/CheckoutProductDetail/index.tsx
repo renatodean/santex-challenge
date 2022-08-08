@@ -62,7 +62,7 @@ const CheckoutProductDetail = ({
       <ImageContainer>
         <StyledImage
           priority
-          src={product.featuredAsset.source}
+          src={product.featuredAsset?.source || "/ban-image-photo-icon.png"}
           alt={product.name}
           layout="fill"
         />
